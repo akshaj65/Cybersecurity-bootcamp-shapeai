@@ -14,7 +14,7 @@ hmdt = api_data['main']['humidity']
 wind_speed = api_data['wind']['speed']
 date_time= datetime.now().strftime(" %d %b %Y | %I:%M:%S %P")
 
-#Explicitly printing to file method
+#Explicitly print to file method
 with open("info.txt","a") as f:
     
     print ("-------------------------------------------------------------",file=f)
